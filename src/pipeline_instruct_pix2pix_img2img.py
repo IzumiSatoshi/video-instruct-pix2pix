@@ -208,7 +208,7 @@ class StableDiffusionInstructPix2PixImg2ImgPipeline(DiffusionPipeline):
         # 6. Prepare latent variables
         num_channels_latents = self.vae.config.latent_channels
         latents = self.prepare_latents(
-            image,
+            init_image,
             latent_timestep,
             batch_size,
             num_images_per_prompt,
