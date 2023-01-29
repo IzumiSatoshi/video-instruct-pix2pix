@@ -50,7 +50,7 @@ def preprocess(image):
     return image
 
 
-class StableDiffusionInstructPix2PixPipeline(DiffusionPipeline):
+class StableDiffusionInstructPix2PixImg2ImgPipeline(DiffusionPipeline):
     r"""
     Pipeline for pixel-level image editing by following text instructions. Based on Stable Diffusion.
 
